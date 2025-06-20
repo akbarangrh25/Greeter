@@ -1,0 +1,10 @@
+name: Greeter
+version: '1.0'
+main: me.akbaranrgh25.greeter.Greeter
+api-version: '1.21'
+commands:
+  greeter:
+    description: Main command for Greeter plugin
+    usage: /<command> reload
+    permission: greeter.reload
+    permission-message: You don't have permission to use Greeter.

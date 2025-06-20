@@ -1,0 +1,9 @@
+delay-start: 3         # Delay before starting greetings (seconds)
+delay-min: 3           # Minimum delay between messages (seconds)
+delay-max: 10          # Maximum delay between messages (seconds)
+
+greetings:
+  - "<gray><%greeter%></gray> <white>Welcome to the server, <green>%new_player%</green>!</white>"
+  - "<aqua><%greeter%></aqua> <yellow>Hey <green>%new_player%</green>, glad to have you here!</yellow>"
+  - "<blue><%greeter%></blue> <white>Nice to meet you, <green>%new_player%</green>!</white>"
+  - "<green><%greeter%></green> <gray>Hope you enjoy your stay, <green>%new_player%</green>!</gray>"
